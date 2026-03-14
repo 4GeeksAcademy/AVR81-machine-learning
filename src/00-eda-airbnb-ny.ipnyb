@@ -1,14 +1,1 @@
-#Para analizar:
 
-Mejor valorados
-Tiempo de estancia
-Precios
-Zonas
-Número de reviews
-Puntución de la casa
-Diferencias de precios por tipo de habitación
-
-import  pandas as pd
-
-raw_data = pd.read_csv('/content/sample_data/AB_NYC_2019.csv', on_bad_lines='skip')
-raw_data
